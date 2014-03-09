@@ -1,0 +1,12 @@
+xcuserdata/
+dns
+
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.sln
+dns.exe
+Debug/
+Release/
+ipch/

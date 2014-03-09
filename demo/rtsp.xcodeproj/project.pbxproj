@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE980821657F47A005BFD09 /* RtspConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980771657F47A005BFD09 /* RtspConnection.cpp */; };
+		FEE980841657F47A005BFD09 /* RtspServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE9807B1657F47A005BFD09 /* RtspServer.cpp */; };
+		FEE980851657F47A005BFD09 /* RtspSession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE9807D1657F47A005BFD09 /* RtspSession.cpp */; };
+		FEE980861657F47A005BFD09 /* RtspStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE9807F1657F47A005BFD09 /* RtspStream.cpp */; };
+		FEE980891657F47A005BFD09 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980871657F47A005BFD09 /* main.cpp */; };
+		FEE9809C1657F47A005BFD09 /* Message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE9809A1657F47A005BFD09 /* Message.cpp */; };
+		FEE9809F1657F47A005BFD09 /* RtspMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE9809D1657F47A005BFD09 /* RtspMessage.cpp */; };
+		FEE980B71657F47A005BFD09 /* UdpSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980B51657F47A005BFD09 /* UdpSocket.cpp */; };
+		FEE980BF1657F47A005BFD09 /* RtspClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980BD1657F47A005BFD09 /* RtspClient.cpp */; };
+		FEE980E31657F47A005BFD09 /* Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980D31657F47A005BFD09 /* Buffer.cpp */; };
+		FEE980E41657F47A005BFD09 /* Server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980D71657F47A005BFD09 /* Server.cpp */; };
+		FEE980E51657F47A005BFD09 /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980D91657F47A005BFD09 /* Socket.cpp */; };
+		FEE980E61657F47A005BFD09 /* StringUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980DB1657F47A005BFD09 /* StringUtil.cpp */; };
+		FEE980E71657F47A005BFD09 /* TcpClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980DD1657F47A005BFD09 /* TcpClient.cpp */; };
+		FEE980E81657F47A005BFD09 /* TcpConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980DF1657F47A005BFD09 /* TcpConnection.cpp */; };
+		FEE980E91657F47A005BFD09 /* TcpServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FEE980E11657F47A005BFD09 /* TcpServer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FEE9805D1657F47A005BFD09 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FEE9805F1657F47A005BFD09 /* rtsp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rtsp; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE980771657F47A005BFD09 /* RtspConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspConnection.cpp; sourceTree = "<group>"; };
+		FEE980781657F47A005BFD09 /* RtspConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspConnection.h; sourceTree = "<group>"; };
+		FEE9807B1657F47A005BFD09 /* RtspServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspServer.cpp; sourceTree = "<group>"; };
+		FEE9807C1657F47A005BFD09 /* RtspServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspServer.h; sourceTree = "<group>"; };
+		FEE9807D1657F47A005BFD09 /* RtspSession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspSession.cpp; sourceTree = "<group>"; };
+		FEE9807E1657F47A005BFD09 /* RtspSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspSession.h; sourceTree = "<group>"; };
+		FEE9807F1657F47A005BFD09 /* RtspStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspStream.cpp; sourceTree = "<group>"; };
+		FEE980801657F47A005BFD09 /* RtspStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspStream.h; sourceTree = "<group>"; };
+		FEE980871657F47A005BFD09 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FEE9809A1657F47A005BFD09 /* Message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Message.cpp; sourceTree = "<group>"; };
+		FEE9809B1657F47A005BFD09 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		FEE9809D1657F47A005BFD09 /* RtspMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspMessage.cpp; sourceTree = "<group>"; };
+		FEE9809E1657F47A005BFD09 /* RtspMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspMessage.h; sourceTree = "<group>"; };
+		FEE980B51657F47A005BFD09 /* UdpSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UdpSocket.cpp; sourceTree = "<group>"; };
+		FEE980B61657F47A005BFD09 /* UdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocket.h; sourceTree = "<group>"; };
+		FEE980BD1657F47A005BFD09 /* RtspClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RtspClient.cpp; sourceTree = "<group>"; };
+		FEE980BE1657F47A005BFD09 /* RtspClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RtspClient.h; sourceTree = "<group>"; };
+		FEE980D31657F47A005BFD09 /* Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Buffer.cpp; sourceTree = "<group>"; };
+		FEE980D41657F47A005BFD09 /* Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Buffer.h; sourceTree = "<group>"; };
+		FEE980D51657F47A005BFD09 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		FEE980D61657F47A005BFD09 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		FEE980D71657F47A005BFD09 /* Server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Server.cpp; sourceTree = "<group>"; };
+		FEE980D81657F47A005BFD09 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		FEE980D91657F47A005BFD09 /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
+		FEE980DA1657F47A005BFD09 /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		FEE980DB1657F47A005BFD09 /* StringUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringUtil.cpp; sourceTree = "<group>"; };
+		FEE980DC1657F47A005BFD09 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		FEE980DD1657F47A005BFD09 /* TcpClient.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpClient.cpp; sourceTree = "<group>"; };
+		FEE980DE1657F47A005BFD09 /* TcpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpClient.h; sourceTree = "<group>"; };
+		FEE980DF1657F47A005BFD09 /* TcpConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpConnection.cpp; sourceTree = "<group>"; };
+		FEE980E01657F47A005BFD09 /* TcpConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpConnection.h; sourceTree = "<group>"; };
+		FEE980E11657F47A005BFD09 /* TcpServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TcpServer.cpp; sourceTree = "<group>"; };
+		FEE980E21657F47A005BFD09 /* TcpServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpServer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE9805C1657F47A005BFD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE980541657F47A005BFD09 = {
+			isa = PBXGroup;
+			children = (
+				FEE980871657F47A005BFD09 /* main.cpp */,
+				FEE980741657F47A005BFD09 /* rtsp */,
+				FEE980D21657F47A005BFD09 /* pputil */,
+				FEE980601657F47A005BFD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE980601657F47A005BFD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9805F1657F47A005BFD09 /* rtsp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE980741657F47A005BFD09 /* rtsp */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9807B1657F47A005BFD09 /* RtspServer.cpp */,
+				FEE9807C1657F47A005BFD09 /* RtspServer.h */,
+				FEE9807D1657F47A005BFD09 /* RtspSession.cpp */,
+				FEE9807E1657F47A005BFD09 /* RtspSession.h */,
+				FEE9807F1657F47A005BFD09 /* RtspStream.cpp */,
+				FEE980801657F47A005BFD09 /* RtspStream.h */,
+				FEE980BD1657F47A005BFD09 /* RtspClient.cpp */,
+				FEE980BE1657F47A005BFD09 /* RtspClient.h */,
+				FEE980771657F47A005BFD09 /* RtspConnection.cpp */,
+				FEE980781657F47A005BFD09 /* RtspConnection.h */,
+				FEE9809D1657F47A005BFD09 /* RtspMessage.cpp */,
+				FEE9809E1657F47A005BFD09 /* RtspMessage.h */,
+				FEE9809A1657F47A005BFD09 /* Message.cpp */,
+				FEE9809B1657F47A005BFD09 /* Message.h */,
+				FEE980B51657F47A005BFD09 /* UdpSocket.cpp */,
+				FEE980B61657F47A005BFD09 /* UdpSocket.h */,
+			);
+			name = rtsp;
+			path = ../rtsp;
+			sourceTree = "<group>";
+		};
+		FEE980D21657F47A005BFD09 /* pputil */ = {
+			isa = PBXGroup;
+			children = (
+				FEE980E11657F47A005BFD09 /* TcpServer.cpp */,
+				FEE980E21657F47A005BFD09 /* TcpServer.h */,
+				FEE980D71657F47A005BFD09 /* Server.cpp */,
+				FEE980D81657F47A005BFD09 /* Server.h */,
+				FEE980DD1657F47A005BFD09 /* TcpClient.cpp */,
+				FEE980DE1657F47A005BFD09 /* TcpClient.h */,
+				FEE980DF1657F47A005BFD09 /* TcpConnection.cpp */,
+				FEE980E01657F47A005BFD09 /* TcpConnection.h */,
+				FEE980D61657F47A005BFD09 /* Connection.h */,
+				FEE980D91657F47A005BFD09 /* Socket.cpp */,
+				FEE980DA1657F47A005BFD09 /* Socket.h */,
+				FEE980D31657F47A005BFD09 /* Buffer.cpp */,
+				FEE980D41657F47A005BFD09 /* Buffer.h */,
+				FEE980DB1657F47A005BFD09 /* StringUtil.cpp */,
+				FEE980DC1657F47A005BFD09 /* StringUtil.h */,
+				FEE980D51657F47A005BFD09 /* Config.h */,
+			);
+			name = pputil;
+			path = ../pputil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE9805E1657F47A005BFD09 /* rtsp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE980681657F47A005BFD09 /* Build configuration list for PBXNativeTarget "rtsp" */;
+			buildPhases = (
+				FEE9805B1657F47A005BFD09 /* Sources */,
+				FEE9805C1657F47A005BFD09 /* Frameworks */,
+				FEE9805D1657F47A005BFD09 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rtsp;
+			productName = rtsp;
+			productReference = FEE9805F1657F47A005BFD09 /* rtsp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE980561657F47A005BFD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = GWU;
+			};
+			buildConfigurationList = FEE980591657F47A005BFD09 /* Build configuration list for PBXProject "rtsp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEE980541657F47A005BFD09;
+			productRefGroup = FEE980601657F47A005BFD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE9805E1657F47A005BFD09 /* rtsp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE9805B1657F47A005BFD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE980821657F47A005BFD09 /* RtspConnection.cpp in Sources */,
+				FEE980841657F47A005BFD09 /* RtspServer.cpp in Sources */,
+				FEE980851657F47A005BFD09 /* RtspSession.cpp in Sources */,
+				FEE980861657F47A005BFD09 /* RtspStream.cpp in Sources */,
+				FEE980891657F47A005BFD09 /* main.cpp in Sources */,
+				FEE9809C1657F47A005BFD09 /* Message.cpp in Sources */,
+				FEE9809F1657F47A005BFD09 /* RtspMessage.cpp in Sources */,
+				FEE980B71657F47A005BFD09 /* UdpSocket.cpp in Sources */,
+				FEE980BF1657F47A005BFD09 /* RtspClient.cpp in Sources */,
+				FEE980E31657F47A005BFD09 /* Buffer.cpp in Sources */,
+				FEE980E41657F47A005BFD09 /* Server.cpp in Sources */,
+				FEE980E51657F47A005BFD09 /* Socket.cpp in Sources */,
+				FEE980E61657F47A005BFD09 /* StringUtil.cpp in Sources */,
+				FEE980E71657F47A005BFD09 /* TcpClient.cpp in Sources */,
+				FEE980E81657F47A005BFD09 /* TcpConnection.cpp in Sources */,
+				FEE980E91657F47A005BFD09 /* TcpServer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FEE980661657F47A005BFD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FEE980671657F47A005BFD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FEE980691657F47A005BFD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEE9806A1657F47A005BFD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE980591657F47A005BFD09 /* Build configuration list for PBXProject "rtsp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE980661657F47A005BFD09 /* Debug */,
+				FEE980671657F47A005BFD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE980681657F47A005BFD09 /* Build configuration list for PBXNativeTarget "rtsp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE980691657F47A005BFD09 /* Debug */,
+				FEE9806A1657F47A005BFD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE980561657F47A005BFD09 /* Project object */;
+}

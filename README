@@ -1,0 +1,10 @@
+RTSP Server
+
+This is part of my hands-on work for my course at The George Washington 
+University. A simplified RTSP server is designed and implemented with 
+Object-Oriented paradigm. It is designed to work as a embedded service 
+in a client software of media streaming system. The implementation is 
+only a framework that responds RTSP messages. Actual media loading and 
+streaming is not included.
+
+li@maoxuli.com
